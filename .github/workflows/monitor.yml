@@ -25,5 +25,5 @@ jobs:
 
       - name: Run the SimpliSmart monitor
         env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_URL: ${{secrets.SLACK_WEBHOOK_URL}}
         run: python3 simplismart_monitor.py --now
