@@ -1,6 +1,6 @@
 {
     "api_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1dWlkIjoiMzM3NmE2YjgtYzU3Ni00NjljLTgwNjYtMDRhYjViYWNiZmIyIiwiZXhwIjoxNzY0MTg5MTEyLCJvcmdfdXVpZCI6ImIzNWQxYjk5LTExY2YtNGI5NS1iNzEyLTVlZjE1ZmE2Y2RmZCJ9.zzJdWHz2SbDF3JGXyKRuxRHQXnfTCxoxU3ZPDVzJIiA",
-    "slack_webhook_url": "",
+    "slack_webhook_url": "https://hooks.slack.com/services/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",
     "schedule_time": "09:00",
     "timezone": "Asia/Kolkata",
   
