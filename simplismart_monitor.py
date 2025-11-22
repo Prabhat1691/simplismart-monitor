@@ -370,6 +370,11 @@ class ModelMonitor:
 
         self.slack_webhook_url = config.get("slack_webhook_url")
 
+        import os
+        env_webhook = os.getenv("SLACK_WEBHOOK_URL")
+        if env_webhook:
+            self.slack_webhook_url = env_webhook
+
     def _call_model_once(
         self,
         model_cfg: Dict[str, Any],
