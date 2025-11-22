@@ -536,6 +536,7 @@ class ModelMonitor:
     # ----------------- SLACK NOTIFICATION ----------------- #
 
     def send_slack_notification(self, results: List[Dict[str, Any]]) -> None:
+        print("DEBUG SLACK URL =", self.slack_webhook_url)
         if not self.slack_webhook_url:
             logging.warning("Slack webhook URL not configured; skipping Slack notification.")
             return
